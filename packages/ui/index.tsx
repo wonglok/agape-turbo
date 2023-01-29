@@ -1,5 +1,5 @@
 import * as React from "react";
-import { EffectNode } from "./EffectNOde";
-
+import { EffectNode } from "./EffectNode";
 export { EffectNode };
+
 export * from "./Button";
