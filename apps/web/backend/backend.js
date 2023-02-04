@@ -2,6 +2,8 @@ import { ethers } from "ethers";
 import { v4 } from "uuid";
 import md5 from "md5";
 import axios from "axios";
+import { Backend } from "../aws-backend.config.js";
+
 export function checkIsAddressCorrect(address) {
   try {
     return Boolean(utils.getAddress(address));
@@ -10,21 +12,9 @@ export function checkIsAddressCorrect(address) {
     return false;
   }
 }
-export const getBackend = () => {
-  let backend = {
-    development: { rest: "http://localhost:3333", ws: "" },
-    staging: {
-      rest: "https://1fyh57enbl.execute-api.us-west-2.amazonaws.com",
-      ws: "",
-    },
-    production: {
-      rest: "https://su4w18efdb.execute-api.us-west-2.amazonaws.com",
-      ws: "",
-    },
-  };
-
+export const getBackendURL = () => {
   let env = process.env.NODE_ENV;
-  return backend[env];
+  return Backend[env];
 };
 
 export const loginMetamask = async () => {
@@ -56,7 +46,7 @@ Nonce: ${nonce}
 `;
   const signature = await signer.signMessage(rawMessage);
 
-  return fetch(`http://localhost:3333/auth-center`, {
+  return fetch(`${getBackendURL().rest}/auth-center`, {
     method: "post",
     mode: "cors",
     body: JSON.stringify({
