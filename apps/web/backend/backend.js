@@ -12,11 +12,19 @@ export function checkIsAddressCorrect(address) {
 }
 export const getBackend = () => {
   let backend = {
-    development: { rest: "http://localhost:3333", ws: "http://localhost:3333" },
-    test: { rest: "", ws: "" },
-    production: { rest: "", ws: "" },
+    development: { rest: "http://localhost:3333", ws: "" },
+    staging: {
+      rest: "https://1fyh57enbl.execute-api.us-west-2.amazonaws.com",
+      ws: "",
+    },
+    production: {
+      rest: "https://su4w18efdb.execute-api.us-west-2.amazonaws.com",
+      ws: "",
+    },
   };
-  return backend[process.env.NODE_ENV];
+
+  let env = process.env.NODE_ENV;
+  return backend[env];
 };
 
 export const loginMetamask = async () => {
