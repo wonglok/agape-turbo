@@ -1,0 +1,41 @@
+
+<svg width="30px" height="33px" viewBox="0 0 30 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M12.0589,0.756205825 C13.8053,-0.252067575 15.9569,-0.252068975 17.7033,0.756203825 L26.94,6.08900683 C28.6864,7.09728683 29.7622,8.96064683 29.7622,10.9771468 L29.7622,21.6428468 C29.7622,23.6593468 28.6864,25.5227468 26.94,26.5309468 L17.7033,31.8637468 C15.9569,32.8720468 13.8053,32.8720468 12.0589,31.8638468 L2.8222,26.5309468 C1.07582,25.5227468 0,23.6593468 0,21.6428468 L0,10.9771468 C0,8.96064683 1.07582,7.09728683 2.8222,6.08900683 L12.0589,0.756205825 Z" id="path-oega_inlpm-1"></path>
+        <linearGradient x1="50%" y1="127.134122%" x2="50%" y2="-106.435188%" id="linearGradient-oega_inlpm-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#EC30FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="127.134122%" x2="50%" y2="-106.435188%" id="linearGradient-oega_inlpm-4">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#EC30FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="127.134122%" x2="50%" y2="-106.435188%" id="linearGradient-oega_inlpm-5">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#EC30FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="127.134122%" x2="50%" y2="-106.435188%" id="linearGradient-oega_inlpm-6">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#EC30FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo-copy">
+            <mask id="mask-oega_inlpm-2" fill="white">
+                <use xlink:href="#path-oega_inlpm-1"></use>
+            </mask>
+            <g id="Path"></g>
+            <g id="Group" mask="url(#mask-oega_inlpm-2)">
+                <g transform="translate(-1.434870, -1.154297)">
+                    <polygon id="Path" fill="url(#linearGradient-oega_inlpm-3)" fill-rule="nonzero" points="16.31187 0 32.62367 9.417634 24.36877 13.862444 20.95907 12.002544 17.85927 12.312544 10.10986 9.522724 8.24999 12.002544 7.32006 13.242444 5.4602 12.002544 0 9.417634"></polygon>
+                    <polygon id="Path" fill="url(#linearGradient-oega_inlpm-4)" fill-rule="nonzero" points="1.305964 9.551614 7.63386 12.620244 11.35358 21.609544 11.35358 21.919544 12.59347 23.469444 18.17307 27.809144 16.31507 35.548144 1.305963 26.882644"></polygon>
+                    <polygon id="Path" fill="url(#linearGradient-oega_inlpm-5)" fill-rule="nonzero" points="21.26897 21.918144 25.29867 13.238744 31.32087 9.552544 31.32087 26.883544 16.31177 35.549144 15.99937 27.807644"></polygon>
+                    <path d="M16.31117,7.046874 C13.74637,7.046874 11.40897,8.020354 9.6481,9.617954 L11.07767,21.925644 C11.46857,22.106144 13.71077,22.855744 14.14137,22.855744 L17.24107,22.855744 C17.78897,22.855744 21.58077,21.687944 21.58077,22.235744 L21.27077,20.933744 C21.27077,21.481644 20.82677,21.925644 20.27887,21.925644 L12.34347,21.925644 C11.79567,21.925644 11.35154,21.481644 11.35154,20.933744 L11.35154,16.131744 C11.35154,15.701144 11.2581,15.275744 11.07767,14.884644 L9.6481,9.617954 C8.0505,11.378744 6.3919,14.401344 6.3919,16.966144 C6.3919,22.444444 10.83286,26.885444 16.31117,26.885444 C21.78947,26.885444 26.23047,22.444444 26.23047,16.966144 C26.23047,11.487844 21.78947,7.046874 16.31117,7.046874 Z" id="Path" fill="url(#linearGradient-oega_inlpm-6)" fill-rule="nonzero"></path>
+                    <text id="A" fill="none" font-family="Days" font-size="23" font-weight="normal" letter-spacing="-0.605263158">
+                        <tspan x="7" y="25" fill="#FF01AD">A</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
