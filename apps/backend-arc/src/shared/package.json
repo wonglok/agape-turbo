@@ -1,0 +1,22 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jwt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@architect/functions": "^5.1.0",
+    "aws-sdk": "^2.1309.0",
+    "ethers": "^6.0.0",
+    "jose": "^4.8.1",
+    "lib0": "latest",
+    "uuid": "latest",
+    "y-protocols": "latest",
+    "yjs": "latest"
+  }
+}

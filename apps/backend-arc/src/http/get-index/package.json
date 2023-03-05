@@ -1,0 +1,16 @@
+{
+  "name": "get-index",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Wong Lok",
+  "license": "ISC",
+  "dependencies": {
+    "@architect/functions": "^5.3.3",
+    "handlebars": "^4.7.7"
+  }
+}

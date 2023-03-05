@@ -1,0 +1,35 @@
+{
+  "name": "default",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aes-js": "^4.0.0-beta.3",
+    "csrf": "^3.1.0",
+    "jose": "^4.12.0",
+    "cookie-signature": "^1.2.0",
+    "isomorphic.js": "^0.2.5",
+    "lib0": "^0.2.62",
+    "node-webtokens": "^1.0.4",
+    "ethers": "^6.0.4",
+    "cookie": "^0.5.0",
+    "random-bytes": "^1.0.0",
+    "queue-microtask": "^1.2.3",
+    "run-parallel": "^1.2.0",
+    "tslib": "^2.4.0",
+    "run-waterfall": "^1.1.7",
+    "uid-safe": "^2.1.5",
+    "uuid": "^9.0.0",
+    "rndm": "^1.2.0",
+    "tsscmp": "^1.0.6",
+    "yjs": "^13.5.46",
+    "ws": "^8.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Wong Lok",
+  "license": "ISC"
+}

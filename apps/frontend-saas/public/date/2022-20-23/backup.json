@@ -1,0 +1,759 @@
+{
+  "edges": [
+    {
+      "source": "_0d486b064ece7fa9c07bb3788a727442",
+      "sourceHandle": "material",
+      "target": "_7a9a44a337954fd15ed46cbd91805727",
+      "targetHandle": "anyTarget",
+      "type": "CloseEdge",
+      "id": "reactflow__edge-_0d486b064ece7fa9c07bb3788a727442material-_7a9a44a337954fd15ed46cbd91805727anyTarget",
+      "animated": false,
+      "style": {
+        "stroke": ""
+      },
+      "selected": false
+    },
+    {
+      "source": "_9fdda5ad4e2e8b7f48d909e2a3d4809e",
+      "sourceHandle": "color",
+      "target": "_0d486b064ece7fa9c07bb3788a727442",
+      "targetHandle": "color",
+      "type": "CloseEdge",
+      "id": "reactflow__edge-_9fdda5ad4e2e8b7f48d909e2a3d4809ecolor-_0d486b064ece7fa9c07bb3788a727442color",
+      "animated": false,
+      "style": {
+        "stroke": ""
+      },
+      "selected": false
+    },
+    {
+      "id": "_8fcfd5795c44605225bc71c6d163b3cd",
+      "source": "_f0e0345558b18196fd6f68725965b333",
+      "sourceHandle": "color",
+      "targetHandle": "color",
+      "target": "_77898f8c2dedfbe269d92187bb2e03f3",
+      "type": "CloseEdge",
+      "animated": false,
+      "style": {
+        "stroke": ""
+      },
+      "selected": false
+    },
+    {
+      "source": "_77898f8c2dedfbe269d92187bb2e03f3",
+      "sourceHandle": "material",
+      "target": "_0d486b064ece7fa9c07bb3788a727442",
+      "targetHandle": "receiver",
+      "type": "CloseEdge",
+      "id": "reactflow__edge-_77898f8c2dedfbe269d92187bb2e03f3material-_0d486b064ece7fa9c07bb3788a727442receiver",
+      "animated": false,
+      "style": {
+        "stroke": ""
+      },
+      "selected": false
+    },
+    {
+      "source": "_77898f8c2dedfbe269d92187bb2e03f3",
+      "sourceHandle": "material",
+      "target": "_ae9852db7eb53b2d5dbdfafbcb771a8a",
+      "targetHandle": "anyTarget",
+      "type": "CloseEdge",
+      "id": "reactflow__edge-_77898f8c2dedfbe269d92187bb2e03f3material-_ae9852db7eb53b2d5dbdfafbcb771a8aanyTarget",
+      "animated": false,
+      "style": {
+        "stroke": ""
+      },
+      "selected": false
+    },
+    {
+      "source": "_ceb66caea480237c5ac5e5d2aebfe6c1",
+      "sourceHandle": "color",
+      "target": "_c1f20efe9575bdd63d1b3ea2bc681866",
+      "targetHandle": "color_df4b808699d9219e62812b3d8041e831",
+      "type": "CloseEdge",
+      "id": "reactflow__edge-_ceb66caea480237c5ac5e5d2aebfe6c1color-_c1f20efe9575bdd63d1b3ea2bc681866color_df4b808699d9219e62812b3d8041e831",
+      "animated": false,
+      "style": {
+        "stroke": ""
+      }
+    },
+    {
+      "source": "_2dfa414faf2ad63ff40d99ec104782a9",
+      "sourceHandle": "color",
+      "target": "_c1f20efe9575bdd63d1b3ea2bc681866",
+      "targetHandle": "color_fe7bf20985121c5cc7813252843024a5",
+      "type": "CloseEdge",
+      "id": "reactflow__edge-_2dfa414faf2ad63ff40d99ec104782a9color-_c1f20efe9575bdd63d1b3ea2bc681866color_fe7bf20985121c5cc7813252843024a5",
+      "animated": false,
+      "style": {
+        "stroke": ""
+      }
+    },
+    {
+      "source": "_c1f20efe9575bdd63d1b3ea2bc681866",
+      "sourceHandle": "anySource_6361fa0b1097f19c5206b09bea0341ab",
+      "target": "_62909ae077692f1d4041729afd498079",
+      "targetHandle": "material",
+      "type": "CloseEdge",
+      "id": "reactflow__edge-_c1f20efe9575bdd63d1b3ea2bc681866anySource_6361fa0b1097f19c5206b09bea0341ab-_62909ae077692f1d4041729afd498079material",
+      "animated": false,
+      "style": {
+        "stroke": ""
+      }
+    },
+    {
+      "source": "_c1f20efe9575bdd63d1b3ea2bc681866",
+      "sourceHandle": "anySource_06fd78d874d5c600794ea37e3b11d22f",
+      "target": "_448bce237ff76b816a4b427ea2f6037c",
+      "targetHandle": "material",
+      "type": "CloseEdge",
+      "id": "reactflow__edge-_c1f20efe9575bdd63d1b3ea2bc681866anySource_06fd78d874d5c600794ea37e3b11d22f-_448bce237ff76b816a4b427ea2f6037cmaterial",
+      "animated": false,
+      "style": {
+        "stroke": ""
+      }
+    },
+    {
+      "id": "_b5257f45d0bf80617de0fed2d4f7e600",
+      "source": "_7a9a44a337954fd15ed46cbd91805727",
+      "sourceHandle": "anySource",
+      "targetHandle": "material",
+      "target": "_5201f3f11118a750c8534e394e1a3676",
+      "type": "CloseEdge",
+      "animated": false,
+      "style": {
+        "stroke": ""
+      }
+    },
+    {
+      "id": "_2d9a81d614abdaf484a5bf5ea59331ba",
+      "source": "_ae9852db7eb53b2d5dbdfafbcb771a8a",
+      "sourceHandle": "anySource",
+      "targetHandle": "material",
+      "target": "_3dd1da9f0df74c49fd69759f03de2f59",
+      "type": "CloseEdge"
+    }
+  ],
+  "nodes": [
+    {
+      "type": "ColorPicker",
+      "data": {
+        "label": "master2",
+        "color": "#1abaff",
+        "isExposed": true,
+        "isGroupedForExpose": true,
+        "groupName": "color"
+      },
+      "position": {
+        "x": -870,
+        "y": -530
+      },
+      "id": "_f0e0345558b18196fd6f68725965b333",
+      "width": 345,
+      "height": 42,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -870,
+        "y": -530
+      },
+      "dragging": false
+    },
+    {
+      "id": "_21e15efffa34c6d88705a3a5bb298ca2",
+      "type": "ExportGroup",
+      "data": {
+        "label": "Group",
+        "width": 936.8613764803099,
+        "height": 1031.7088486808582
+      },
+      "position": {
+        "x": -1040,
+        "y": -670
+      },
+      "style": {
+        "zIndex": -1
+      },
+      "width": 937,
+      "height": 2,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -1040,
+        "y": -670
+      },
+      "dragging": false
+    },
+    {
+      "type": "OutputNode",
+      "data": {
+        "label": "material",
+        "color": "#a0a0a0",
+        "isExported": true,
+        "arrive": {
+          "color": 1751806
+        }
+      },
+      "position": {
+        "x": -350,
+        "y": -110
+      },
+      "id": "_ae9852db7eb53b2d5dbdfafbcb771a8a",
+      "width": 193,
+      "height": 42,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -350,
+        "y": -110
+      },
+      "dragging": false
+    },
+    {
+      "type": "ReadSceneMesh",
+      "data": {
+        "label": "RetopoFlow325_9",
+        "color": "#a0a0a0",
+        "objectName": "RetopoFlow010_12"
+      },
+      "position": {
+        "x": -200,
+        "y": 860
+      },
+      "id": "_62909ae077692f1d4041729afd498079",
+      "width": 193,
+      "height": 82,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -200,
+        "y": 860
+      },
+      "dragging": false
+    },
+    {
+      "type": "ReadSceneMesh",
+      "data": {
+        "label": "meshItem1",
+        "color": "#a0a0a0",
+        "objectName": "RetopoFlow325_2"
+      },
+      "position": {
+        "x": -230,
+        "y": 1020
+      },
+      "id": "_f7ba3a2fa76d7be1e15ebd9287b138b2",
+      "width": 193,
+      "height": 82,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -230,
+        "y": 1020
+      },
+      "dragging": false
+    },
+    {
+      "type": "InstanceMaterial",
+      "data": {
+        "label": "instanceMaterial1",
+        "color": "#a0a0a0"
+      },
+      "position": {
+        "x": -590,
+        "y": -120
+      },
+      "id": "_0d486b064ece7fa9c07bb3788a727442",
+      "width": 193,
+      "height": 338,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -590,
+        "y": -120
+      },
+      "dragging": false
+    },
+    {
+      "type": "OutputNode",
+      "data": {
+        "label": "material2",
+        "color": "#a0a0a0",
+        "isExported": true,
+        "arrive": {
+          "color": 16646144
+        }
+      },
+      "position": {
+        "x": -490,
+        "y": 280
+      },
+      "id": "_7a9a44a337954fd15ed46cbd91805727",
+      "width": 193,
+      "height": 42,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -490,
+        "y": 280
+      },
+      "dragging": false
+    },
+    {
+      "type": "ColorPicker",
+      "data": {
+        "label": "colorPicker1",
+        "color": "#ff0a0a"
+      },
+      "position": {
+        "x": -1040,
+        "y": 680
+      },
+      "id": "_ceb66caea480237c5ac5e5d2aebfe6c1",
+      "width": 345,
+      "height": 42,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -1040,
+        "y": 680
+      },
+      "dragging": false
+    },
+    {
+      "type": "ColorPicker",
+      "data": {
+        "label": "sub3",
+        "color": "#ff0000",
+        "isExposed": true,
+        "isGroupedForExpose": true,
+        "groupName": "color"
+      },
+      "position": {
+        "x": -1000,
+        "y": -110
+      },
+      "id": "_9fdda5ad4e2e8b7f48d909e2a3d4809e",
+      "width": 345,
+      "height": 42,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -1000,
+        "y": -110
+      },
+      "dragging": false
+    },
+    {
+      "type": "ColorPicker",
+      "data": {
+        "label": "colorPicker1",
+        "color": "#ff0000"
+      },
+      "position": {
+        "x": -1040,
+        "y": 740
+      },
+      "id": "_2dfa414faf2ad63ff40d99ec104782a9",
+      "width": 345,
+      "height": 42,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -1040,
+        "y": 740
+      },
+      "dragging": false
+    },
+    {
+      "type": "Capsule",
+      "data": {
+        "label": "My Package",
+        "nodes": [
+          {
+            "width": 345,
+            "height": 42,
+            "type": "ColorPicker",
+            "data": {
+              "label": "master2",
+              "color": 16648457,
+              "isExposed": true,
+              "isGroupedForExpose": true,
+              "groupName": "color"
+            },
+            "position": {
+              "x": -870,
+              "y": -530
+            },
+            "id": "_df4b808699d9219e62812b3d8041e831",
+            "selected": false,
+            "positionAbsolute": {
+              "x": -870,
+              "y": -530
+            },
+            "dragging": false
+          },
+          {
+            "width": 193,
+            "height": 42,
+            "type": "OutputNode",
+            "data": {
+              "label": "material",
+              "color": "#a0a0a0",
+              "isExported": true,
+              "arrive": {
+                "color": 16648457
+              }
+            },
+            "position": {
+              "x": -350,
+              "y": -110
+            },
+            "id": "_06fd78d874d5c600794ea37e3b11d22f",
+            "selected": false,
+            "positionAbsolute": {
+              "x": -350,
+              "y": -110
+            },
+            "dragging": false
+          },
+          {
+            "width": 193,
+            "height": 338,
+            "type": "InstanceMaterial",
+            "data": {
+              "label": "instanceMaterial1",
+              "color": "#a0a0a0"
+            },
+            "position": {
+              "x": -590,
+              "y": -120
+            },
+            "id": "_29bbd61cbe3abf4f6cc99d6b591e1116",
+            "selected": false,
+            "positionAbsolute": {
+              "x": -590,
+              "y": -120
+            },
+            "dragging": false
+          },
+          {
+            "width": 193,
+            "height": 42,
+            "type": "OutputNode",
+            "data": {
+              "label": "material2",
+              "color": "#a0a0a0",
+              "isExported": true,
+              "arrive": {
+                "color": 16646144
+              }
+            },
+            "position": {
+              "x": -490,
+              "y": 280
+            },
+            "id": "_6361fa0b1097f19c5206b09bea0341ab",
+            "selected": false,
+            "positionAbsolute": {
+              "x": -490,
+              "y": 280
+            },
+            "dragging": false
+          },
+          {
+            "width": 345,
+            "height": 42,
+            "type": "ColorPicker",
+            "data": {
+              "label": "sub3",
+              "color": 16646144,
+              "isExposed": true,
+              "isGroupedForExpose": true,
+              "groupName": "color"
+            },
+            "position": {
+              "x": -1000,
+              "y": -110
+            },
+            "id": "_fe7bf20985121c5cc7813252843024a5",
+            "selected": false,
+            "positionAbsolute": {
+              "x": -1000,
+              "y": -110
+            },
+            "dragging": false
+          },
+          {
+            "width": 193,
+            "height": 338,
+            "type": "InstanceMaterial",
+            "data": {
+              "label": "instanceMaterial1",
+              "color": "#a0a0a0"
+            },
+            "position": {
+              "x": -460,
+              "y": -530
+            },
+            "id": "_f298e806b72fc7bc69a20533afc9ecff",
+            "selected": false,
+            "positionAbsolute": {
+              "x": -460,
+              "y": -530
+            },
+            "dragging": false
+          },
+          {
+            "width": 345,
+            "height": 42,
+            "type": "ColorPicker",
+            "data": {
+              "label": "colorPicker1",
+              "color": "#4FD1C5"
+            },
+            "position": {
+              "x": -1010,
+              "y": -30
+            },
+            "id": "_4dc2508094a6eb5b915f9dd984177929",
+            "selected": false,
+            "positionAbsolute": {
+              "x": -1010,
+              "y": -30
+            },
+            "dragging": false
+          },
+          {
+            "width": 932,
+            "height": 1046,
+            "id": "_2547817fd673fe63189664ea7e85640a",
+            "type": "ExportGroup",
+            "data": {
+              "label": "Group",
+              "width": 931.5399495501629,
+              "height": 1045.7196942690935
+            },
+            "position": {
+              "x": -1060,
+              "y": -670
+            },
+            "style": {
+              "zIndex": -1
+            },
+            "selected": true,
+            "positionAbsolute": {
+              "x": -1060,
+              "y": -670
+            },
+            "dragging": false
+          }
+        ],
+        "edges": [
+          {
+            "source": "_29bbd61cbe3abf4f6cc99d6b591e1116",
+            "sourceHandle": "material",
+            "target": "_6361fa0b1097f19c5206b09bea0341ab",
+            "targetHandle": "anyTarget",
+            "type": "CloseEdge",
+            "id": "_19c6684e6b61195fa451698763058061",
+            "animated": false,
+            "style": {
+              "stroke": ""
+            },
+            "selected": false
+          },
+          {
+            "source": "_fe7bf20985121c5cc7813252843024a5",
+            "sourceHandle": "color",
+            "target": "_29bbd61cbe3abf4f6cc99d6b591e1116",
+            "targetHandle": "color",
+            "type": "CloseEdge",
+            "id": "_982d53e96be373d9c181a7ed49b602a5",
+            "animated": false,
+            "style": {
+              "stroke": ""
+            },
+            "selected": false
+          },
+          {
+            "id": "_81c58d76024781a77c3f63d7538d0d53",
+            "source": "_df4b808699d9219e62812b3d8041e831",
+            "sourceHandle": "color",
+            "targetHandle": "color",
+            "target": "_f298e806b72fc7bc69a20533afc9ecff",
+            "type": "CloseEdge",
+            "animated": false,
+            "style": {
+              "stroke": ""
+            },
+            "selected": false
+          },
+          {
+            "source": "_f298e806b72fc7bc69a20533afc9ecff",
+            "sourceHandle": "material",
+            "target": "_29bbd61cbe3abf4f6cc99d6b591e1116",
+            "targetHandle": "receiver",
+            "type": "CloseEdge",
+            "id": "_895c63f967f4cb5eb4536476793ae7d3",
+            "animated": false,
+            "style": {
+              "stroke": ""
+            },
+            "selected": false
+          },
+          {
+            "source": "_f298e806b72fc7bc69a20533afc9ecff",
+            "sourceHandle": "material",
+            "target": "_06fd78d874d5c600794ea37e3b11d22f",
+            "targetHandle": "anyTarget",
+            "type": "CloseEdge",
+            "id": "_2fb73e3c8975caab4a592c4670fe2df6",
+            "animated": false,
+            "style": {
+              "stroke": ""
+            },
+            "selected": false
+          }
+        ]
+      },
+      "position": {
+        "x": -630,
+        "y": 620
+      },
+      "id": "_c1f20efe9575bdd63d1b3ea2bc681866",
+      "width": 193,
+      "height": 196,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -630,
+        "y": 620
+      },
+      "dragging": false
+    },
+    {
+      "type": "ReadSceneMesh",
+      "data": {
+        "label": "meshItem1",
+        "color": "#a0a0a0",
+        "objectName": "RetopoFlow010_5"
+      },
+      "position": {
+        "x": 70,
+        "y": 870
+      },
+      "id": "_448bce237ff76b816a4b427ea2f6037c",
+      "width": 193,
+      "height": 82,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 70,
+        "y": 870
+      },
+      "dragging": false
+    },
+    {
+      "type": "InstanceMaterial",
+      "data": {
+        "label": "instanceMaterial1",
+        "color": "#a0a0a0"
+      },
+      "position": {
+        "x": -460,
+        "y": -530
+      },
+      "id": "_77898f8c2dedfbe269d92187bb2e03f3",
+      "width": 193,
+      "height": 338,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -460,
+        "y": -530
+      },
+      "dragging": false
+    },
+    {
+      "id": "_daa08531afd228ee4b6c736d16a8cdec",
+      "type": "GLBPicker",
+      "data": {
+        "label": "mech",
+        "glbFileURL": "https://effectnode-2022.s3.ap-southeast-1.amazonaws.com/lok-dev/file-80f27816f84c9864cf8ad924bfb764c8.glb",
+        "flipY": false
+      },
+      "position": {
+        "x": -550,
+        "y": 1130
+      },
+      "width": 249,
+      "height": 150,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -550,
+        "y": 1130
+      },
+      "dragging": false
+    },
+    {
+      "type": "EnvironmentMap",
+      "data": {
+        "label": "envMapPicker",
+        "envMapFileURL": "https://effectnode-2022.s3.ap-southeast-1.amazonaws.com/lok-dev/file-28666411d26c93ef6150b7fbc0ee37d5.hdr",
+        "showBG": true,
+        "showEnv": true
+      },
+      "position": {
+        "x": -890,
+        "y": 1080
+      },
+      "id": "_dcfb07bf2056a18f09bd5740673af4aa",
+      "width": 249,
+      "height": 218,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -890,
+        "y": 1080
+      },
+      "dragging": false
+    },
+    {
+      "type": "ColorPicker",
+      "data": {
+        "label": "colorPicker1",
+        "color": "#4FD1C5"
+      },
+      "position": {
+        "x": -1010,
+        "y": -30
+      },
+      "id": "_52a54f5511fbdeec54c9247415c9f691",
+      "width": 345,
+      "height": 42,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -1010,
+        "y": -30
+      },
+      "dragging": false
+    },
+    {
+      "type": "ReadSceneMesh",
+      "data": {
+        "label": "RetopoFlow010_20",
+        "color": "#a0a0a0",
+        "objectName": "RetopoFlow010_20"
+      },
+      "position": {
+        "x": -270,
+        "y": 420
+      },
+      "id": "_5201f3f11118a750c8534e394e1a3676",
+      "width": 193,
+      "height": 82
+    },
+    {
+      "type": "ReadSceneMesh",
+      "data": {
+        "label": "RetopoFlow010_4",
+        "color": "#a0a0a0",
+        "objectName": "RetopoFlow010_4"
+      },
+      "position": {
+        "x": 200,
+        "y": 200
+      },
+      "id": "_3dd1da9f0df74c49fd69759f03de2f59",
+      "width": 193,
+      "height": 82
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "agape-backend-arc",
+  "version": "0.0.0",
+  "description": "A fresh new Architect project!",
+  "scripts": {
+    "old": "npx arc sandbox",
+    "dev": "yarn; npx arc init; npx arc hydrate; concurrently \"npm run db\" \"npm run ext\"",
+    "db": "dynalite --port 5001 --path ./mydb",
+    "ext": "ARC_DB_EXTERNAL=true ARC_TABLES_PORT=5001 npx arc sandbox",
+    "staging": "npx arc deploy",
+    "deploy": "npx arc deploy --production; npm run dev",
+    "test": "echo yo;"
+  },
+  "devDependencies": {
+    "@architect/architect": "^10.10.0",
+    "concurrently": "^7.6.0",
+    "dynalite": "^3.2.2"
+  },
+  "dependencies": {
+    "js-base64": "^3.7.5"
+  }
+}

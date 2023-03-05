@@ -1,0 +1,35 @@
+{
+  "name": "connect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aes-js": "^4.0.0-beta.3",
+    "cookie": "^0.5.0",
+    "cookie-signature": "^1.2.0",
+    "csrf": "^3.1.0",
+    "isomorphic.js": "^0.2.5",
+    "queue-microtask": "^1.2.3",
+    "jose": "^4.12.0",
+    "lib0": "^0.2.62",
+    "ethers": "^6.0.4",
+    "random-bytes": "^1.0.0",
+    "node-webtokens": "^1.0.4",
+    "run-waterfall": "^1.1.7",
+    "rndm": "^1.2.0",
+    "run-parallel": "^1.2.0",
+    "tslib": "^2.4.0",
+    "uid-safe": "^2.1.5",
+    "tsscmp": "^1.0.6",
+    "uuid": "^9.0.0",
+    "ws": "^8.5.0",
+    "yjs": "^13.5.46"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Wong Lok",
+  "license": "ISC"
+}

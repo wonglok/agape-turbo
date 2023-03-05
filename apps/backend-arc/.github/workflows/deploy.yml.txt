@@ -1,0 +1,25 @@
+# .github/workflows/build-deploy.yml
+name: Build and deploy
+
+on: [push, pull_request]
+
+jobs:
+  # Build and test
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build App
+        uses: architect/action-build@v3
+
+  # Deploy main branch to staging and git tags to production
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v')
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy app
+        uses: architect/action-deploy@v1
+        with:
+          aws_access_key_id: ${{secrets.AWS_ACCESS_KEY_ID}}
+          aws_secret_access_key: ${{secrets.AWS_SECRET_ACCESS_KEY}}
