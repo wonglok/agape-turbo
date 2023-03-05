@@ -2,6 +2,7 @@ import "../style/global.css";
 import { SEO } from "../compos/SEO/SEO.jsx";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import { useOnline } from "../config/useOnline";
 
 //
 export default function Page({ Component, pageProps = { title: "AGAPE" } }) {
@@ -10,8 +11,16 @@ export default function Page({ Component, pageProps = { title: "AGAPE" } }) {
       <SEO title={pageProps.title} />
       <Component {...pageProps} />
       <Loading></Loading>
+      <Hydration></Hydration>
     </>
   );
+}
+
+function Hydration() {
+  useEffect(() => {
+    return useOnline.getState().onHydration();
+  }, []);
+  return null;
 }
 
 function Loading() {

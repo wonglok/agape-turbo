@@ -1,6 +1,6 @@
 module.exports = {
   reactStrictMode: true,
-  transpilePackages: ["agape-ui", "agape-sdk"],
+  transpilePackages: ["agape-shader-editor", "agape-sdk"],
   async headers() {
     return [
       {
