@@ -6,7 +6,10 @@
         "^build"
       ],
       "env": [
-        "NODE_ENV"
+        "NODE_ENV",
+        "MONGODB_URI",
+        "EMAIL_SERVER",
+        "EMAIL_FROM"
       ],
       "outputs": [
         "dist/**",

@@ -7,7 +7,6 @@ import Header from '@/config'
 import 'reactflow/dist/base.css'
 import '@/styles/index.css'
 import '@reactflow/node-resizer/dist/style.css'
-
 import { useRouter } from 'next/router'
 import { Hydration } from '@/backend/aws'
 
